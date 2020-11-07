@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "860775183976",
+    "firebase_url": "https://jarnak-5db82.firebaseio.com",
+    "project_id": "jarnak-5db82",
+    "storage_bucket": "jarnak-5db82.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:860775183976:android:c15e10832ee797ed212ddd",
+        "android_client_info": {
+          "package_name": "kg.jarnama.ozgon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "860775183976-bpq5in1c8opg703gpf0rgnc3e6kb02pl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZOsgPCPZv8MF7va830qKL02SINYZG_Bo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "860775183976-bpq5in1c8opg703gpf0rgnc3e6kb02pl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

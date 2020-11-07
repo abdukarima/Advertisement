@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.promotion.PromotionActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/promotion_page_image"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_no_photo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_margin="10dp"
+                android:background="@color/grey"
+                app:layout_constraintTop_toBottomOf="@+id/textView15"
+                tools:layout_editor_absoluteX="10dp" />
+
+            <TextView
+                android:id="@+id/promotion_page_title"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toStartOf="@+id/date_of_promotion"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/promotion_page_image" />
+
+            <TextView
+                android:id="@+id/promotion_page_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_margin="10dp"
+                android:textSize="25sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/promotion_page_title" />
+
+
+            <TextView
+                android:id="@+id/promotion_page_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                app:layout_constraintTop_toBottomOf="@+id/promotion_page_price"
+                tools:layout_editor_absoluteX="20dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:text="@string/seller"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/promotion_page_body" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="12dp"
+                android:text="@string/seller_num"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <TextView
+                android:id="@+id/user_name_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text=""
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@+id/textView14"
+                app:layout_constraintTop_toBottomOf="@+id/promotion_page_body" />
+
+            <TextView
+                android:id="@+id/user_number_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text=""
+                android:textSize="25sp"
+                app:layout_constraintStart_toEndOf="@+id/textView15"
+                app:layout_constraintTop_toBottomOf="@+id/user_name_view" />
+
+            <ProgressBar
+                android:id="@+id/promotion_page_progress_bar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/date_of_promotion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_margin="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/promotion_page_image" />
+
+            <TextView
+                android:id="@+id/delete_promotion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:text="@string/delete"
+                android:textColor="@color/red"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view2" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        ads:adSize="BANNER"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        ads:adUnitId="ca-app-pub-5495849371404595/5885274277">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
+
+
+

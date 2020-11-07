@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Жарыя Өзгөн</string>
+
+    <string name="menu_home">Башкы бет</string>
+    <string name="profile">Профиль</string>
+    <string name="favorites">Жарыяларым</string>
+
+    <string name="registration">Системага катталуу</string>
+    <string name="tel_number">Телефон номурунуз</string>
+    <string name="register">катталуу</string>
+    <string name="_996">+996</string>
+    <string name="check_sms">СМС кодду текшеруу</string>
+    <string name="code">Код</string>
+    <string name="code_from_sms">CМСтеги кодду териниз</string>
+    <string name="next">Кийинки</string>
+    <string name="change_number">Номерди алмаштыруу</string>
+    <string name="add_ad">Жарыя кошуу</string>
+    <string name="staff">Сатылуучу нерсе</string>
+    <string name="price">Баасы</string>
+    <string name="additonal">Кенирирээк мааалымат</string>
+    <string name="category">Категориясын танданыз</string>
+    <string name="publish">жарыялоо</string>
+    <string name="back">кайтуу</string>
+    <string name="promotions">Жарыялар</string>
+    <string name="categories">Категориялар</string>
+    <string name="name">Аты Жөнү</string>
+    <string name="phone">Номери</string>
+    <string name="info">Жалпы Маалымат</string>
+    <string name="password_change">Паролду алмаштыруу</string>
+    <string name="old_password">Эски пароль</string>
+    <string name="new_password">Жаңы пароль</string>
+    <string name="exit_account">Аккаунтан чыгуу</string>
+    <string name="save">сактоо</string>
+    <string name="create_account">сатуучуну аккаунтун ачуу</string>
+    <string name="seller">Сатычуу</string>
+    <string name="seller_num">Сатуучунун номери</string>
+    <string name="delete">Жарыяны өчүрүү</string>
+    <string name="delete_dialog">Ушул жарыяны өчүрүүнү каалайсызбы?</string>
+    <string name="promotion_added">Жарыяныз кошулду</string>
+    <string name="errror_on_server">Серверде ката кетти</string>
+    <string name="error_uploading_image">Сүрөттү серверге жөнөтүүдө ката чыкты</string>
+    <string name="fill_title_of_promotion">Сатылуучу нерсени белгилениз</string>
+    <string name="fill_price_for_promotion">Баасын белгилениз</string>
+    <string name="account_not_ready_for_publish">Азыр жарыя кошкону болбойт</string>
+    <string name="fill_profile">Профильдеги атынызды жана номеринизди тактаныз</string>
+    <string name="logout_permission">Акаунттан чыканды каалайсызбы?</string>
+    <string name="turned_off">Жарыя өчүрүлгөн</string>
+    <string name="no_promotions">Азыр сизде жарыялар жок</string>
+    <string name="balance">Баланс</string>
+    <string name="balance_variants">Толуктоонун негизги түрлөрү</string>
+    <string name="promo">Промокод</string>
+
+</resources>
